@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Scripts\Pets_5_Dec
+-IC:\Program Files (x86)\OpenText\LoadRunner\include
+-ec:\scripts\pets_5_dec\\logfile.log
+c:\scripts\pets_5_dec\\combined_Pets_5_Dec.c
+c:\scripts\pets_5_dec\\pre_cci.c

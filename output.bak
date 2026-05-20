@@ -1,0 +1,66 @@
+Virtual User Script started at: 06-12-2024 11:14:39
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2024.3.0 for Windows 11; build 528 (Jul 14 2024 16:38:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Scripts\Pets_5_Dec\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(6): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(6): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(8): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Action.c(8): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Action.c(11): Notify: Transaction "Pets_Launch" started.
+Action.c(13): web_url("pets.shaft.com") started  	[MsgId: MMSG-26355]
+Action.c(13): Found resource "http://pets.shaft.com/webjars/font-awesome/4.7.0/css/font-awesome.min.css" in HTML "http://pets.shaft.com/"  	[MsgId: MMSG-26659]
+Action.c(13): Found resource "http://pets.shaft.com/resources/css/petclinic.css" in HTML "http://pets.shaft.com/"  	[MsgId: MMSG-26659]
+Action.c(13): Found resource "http://pets.shaft.com/resources/images/pets.png" in HTML "http://pets.shaft.com/"  	[MsgId: MMSG-26659]
+Action.c(13): Found resource "http://pets.shaft.com/resources/images/spring-logo.svg" in HTML "http://pets.shaft.com/"  	[MsgId: MMSG-26659]
+Action.c(13): Found resource "http://pets.shaft.com/webjars/bootstrap/5.2.3/dist/js/bootstrap.bundle.min.js" in HTML "http://pets.shaft.com/"  	[MsgId: MMSG-26659]
+Action.c(13): web_url("pets.shaft.com") was successful, 431036 body bytes, 1449 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(23): Notify: Transaction "Pets_Launch" ended with a "Pass" status (Duration: 0.3281 Wasted Time: 0.0772).
+Action.c(25): Notify: Transaction "Pets_FindOwner" started.
+Action.c(27): web_url("Find owners") started  	[MsgId: MMSG-26355]
+Action.c(27): Resource "http://pets.shaft.com/webjars/font-awesome/4.7.0/css/font-awesome.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(27): Resource "http://pets.shaft.com/resources/css/petclinic.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(27): Resource "http://pets.shaft.com/resources/images/spring-logo.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(27): Resource "http://pets.shaft.com/webjars/bootstrap/5.2.3/dist/js/bootstrap.bundle.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(27): web_url("Find owners") was successful, 3432 body bytes, 146 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(41): web_submit_data("owners") started  	[MsgId: MMSG-26355]
+Action.c(41): Resource "http://pets.shaft.com/webjars/font-awesome/4.7.0/css/font-awesome.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(41): Resource "http://pets.shaft.com/resources/css/petclinic.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(41): Resource "http://pets.shaft.com/resources/images/spring-logo.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(41): Resource "http://pets.shaft.com/webjars/bootstrap/5.2.3/dist/js/bootstrap.bundle.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(41): web_submit_data("owners") was successful, 5024 body bytes, 146 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(54): web_url("allu arjun") started  	[MsgId: MMSG-26355]
+Action.c(54): Resource "http://pets.shaft.com/webjars/font-awesome/4.7.0/css/font-awesome.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(54): Resource "http://pets.shaft.com/resources/css/petclinic.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(54): Resource "http://pets.shaft.com/resources/images/spring-logo.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(54): Resource "http://pets.shaft.com/webjars/bootstrap/5.2.3/dist/js/bootstrap.bundle.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(54): web_url("allu arjun") was successful, 3393 body bytes, 146 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(64): Notify: Transaction "Pets_FindOwner" ended with a "Pass" status (Duration: 0.3304 Wasted Time: 0.0104).
+Action.c(66): Notify: Transaction "Pets_Editowner" started.
+Action.c(68): web_url("Edit Owner") started  	[MsgId: MMSG-26355]
+Action.c(68): Resource "http://pets.shaft.com/webjars/font-awesome/4.7.0/css/font-awesome.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(68): Resource "http://pets.shaft.com/resources/css/petclinic.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(68): Resource "http://pets.shaft.com/resources/images/spring-logo.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(68): Resource "http://pets.shaft.com/webjars/bootstrap/5.2.3/dist/js/bootstrap.bundle.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(68): web_url("Edit Owner") was successful, 5168 body bytes, 146 header bytes, 13 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(78): web_submit_data("edit") started  	[MsgId: MMSG-26355]
+Action.c(78): Redirecting "http://pets.shaft.com/owners/2111/edit" (redirection depth is 0)  	[MsgId: MMSG-26694]
+Action.c(78): To location "http://pets.shaft.com/owners/2111"  	[MsgId: MMSG-26693]
+Action.c(78): Resource "http://pets.shaft.com/webjars/font-awesome/4.7.0/css/font-awesome.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "http://pets.shaft.com/resources/css/petclinic.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "http://pets.shaft.com/resources/images/spring-logo.svg" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): Resource "http://pets.shaft.com/webjars/bootstrap/5.2.3/dist/js/bootstrap.bundle.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(78): web_submit_data("edit") was successful, 3393 body bytes, 268 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(94): Notify: Transaction "Pets_Editowner" ended with a "Pass" status (Duration: 0.1690 Wasted Time: 0.0048).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

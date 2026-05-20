@@ -1,0 +1,11 @@
+Start auto log messages stack - Iteration 46.	[MsgId: MMSG-10545]
+Action.c(30): Resource "http://pets.shaft.com/webjars/bootstrap/5.2.3/dist/js/bootstrap.bundle.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(30): web_url("Find owners") was successful, 3432 body bytes, 146 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(42): lr_think_time: 4.00 seconds.	[MsgId: MMSG-15948]
+Action.c(44): web_submit_data("owners") started  	[MsgId: MMSG-26355]
+Action.c(44): Resource "http://pets.shaft.com/webjars/font-awesome/4.7.0/css/font-awesome.min.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(44): Resource "http://pets.shaft.com/resources/css/petclinic.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(44): Error -27721: Step download timeout (120 seconds) has expired when downloading resource "http://pets.shaft.com/owners?lastName=arjun"  	[MsgId: MERR-27721]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
