@@ -1,0 +1,5 @@
+[parameter:P_vUser]
+Format="%s"
+OriginalValue=""
+ParamName="P_vUser"
+Type="Userid"

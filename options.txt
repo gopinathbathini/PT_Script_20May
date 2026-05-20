@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Scripts\Pets_5_Dec
+-IC:\Scripts\WebHttpHtml46
 -IC:\Program Files (x86)\OpenText\LoadRunner\include
--ec:\scripts\pets_5_dec\\logfile.log
-c:\scripts\pets_5_dec\\combined_Pets_5_Dec.c
-c:\scripts\pets_5_dec\\pre_cci.c
+-ec:\scripts\webhttphtml46\\logfile.log
+c:\scripts\webhttphtml46\\combined_WebHttpHtml46.c
+c:\scripts\webhttphtml46\\pre_cci.c
